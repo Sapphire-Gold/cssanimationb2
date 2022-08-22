@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Transition</title>
+
+	<style type="text/css">
+		
+    button{
+    	width: 290px;
+    	height: 90px;
+    	color: white;
+    	background-color: blue;
+    	font-size: 28px;
+    	border: none;
+/*
+    	transition-property:width,background-color,color;
+    	transition-duration: 1s;*/
+
+    	   /*Short Hands*/
+                      /*tp tdu*/
+        /*transition: background-color 3s;*/
+        /*transition: all 3s;*/
+
+        /*transition:width 10s,background-color 3s,color 5s;*/
+
+
+               /*Effect*/
+        /*transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function:linear;
+*/
+
+             
+             /*tp            td      ttf*/
+        /*transition: background-color 3s ease-in-out,color 5s ease;*/
+
+         transition: all 3s ease-in-out;
+    }
+
+    button:hover{
+    	/*width: 600px;*/
+    	background-color: red;
+    	color: black;
+    	
+    	/*border-radius: 20px;*/
+    }
+
+
+	</style>
+</head>
+<body>
+
+	<button>CSS Transition</button>
+
+
+</body>
+</html>
